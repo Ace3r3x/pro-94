@@ -1,0 +1,262 @@
+gmail login
+nickname
+friends - send messages
+
+
+additionals -
+diary and music
+
+
+pages-
+
+login- gmail login
+logout
+profile - nickname, choose anyone from the 2 clubs (books and music) - 
+chat box page
+
+
+link -  https://snack.expo.dev/@ac3r3x/community-app
+	https://snack.expo.dev/vCYF9gnrW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "dependencies": {
+    "firebase": "8.2.3",
+    "expo-font": "~9.2.1",
+    "expo-speech": "~9.2.1",
+    "expo-app-auth": "~10.2.2",
+    "expo-status-bar": "~1.0.4",
+    "expo-app-loading": "^1.0.1",
+    "react-navigation": "4.2.2",
+    "@expo/vector-icons": "^12.0.0",
+    "react-native-paper": "^4.7.2",
+    "expo-google-app-auth": "^8.1.4",
+    "react-native-screens": "~3.4.0",
+    "@react-navigation/stack": "^5.14.4",
+    "react-native-reanimated": "~2.2.0",
+    "@react-navigation/drawer": "^5.12.5",
+    "@react-navigation/native": "^5.9.4",
+    "react-native-vector-icons": "^7.0.0",
+    "react-native-dropdown-picker": "^4.0.4",
+    "react-native-gesture-handler": "~1.10.2",
+    "@react-navigation/bottom-tabs": "^5.11.9",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-responsive-fontsize": "^0.5.0",
+    "react-native-vector-icons/Ionicons": "*",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/material-bottom-tabs": "^5.3.15"
+  }
+}
+
+
+or 
+
+
+{
+  "dependencies": {
+    "firebase": "8.2.3",
+    "expo-font": "~9.1.0",
+    "expo-speech": "~9.1.0",
+    "expo-app-auth": "~10.1.2",
+    "expo-status-bar": "~1.0.4",
+    "expo-app-loading": "^1.0.1",
+    "react-navigation": "4.2.0",
+    "@expo/vector-icons": "^12.0.0",
+    "react-native-paper": "^4.7.2",
+    "expo-google-app-auth": "^8.1.4",
+    "react-native-screens": "~3.0.0",
+    "@react-navigation/stack": "^5.14.4",
+    "react-native-reanimated": "~2.1.0",
+    "@react-navigation/drawer": "^5.12.5",
+    "@react-navigation/native": "^5.9.4",
+    "react-native-vector-icons": "^7.0.0",
+    "react-native-dropdown-picker": "^4.0.4",
+    "react-native-gesture-handler": "~1.10.2",
+    "@react-navigation/bottom-tabs": "^5.11.9",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-responsive-fontsize": "^0.5.0",
+    "react-native-vector-icons/Ionicons": "*",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/material-bottom-tabs": "^5.3.15"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //  else {
+    //   let images = {
+    //     image_1: require("../assets/story_image_1.png"),
+    //     image_2: require("../assets/story_image_2.png"),
+    //     image_3: require("../assets/story_image_3.png"),
+    //     image_4: require("../assets/story_image_4.png"),
+    //     image_5: require("../assets/story_image_5.png")
+    //   };
+
+  <Image
+                source={require("../assets/story_image_1.png")}
+                style={styles.image}
+              ></Image>
+
+      <Image
+              source={images[story.preview_image]}
+              style={styles.storyImage}
+            ></Image>
+
+ storyImage: {
+    resizeMode: "contain",
+    width: "95%",
+    alignSelf: "center",
+    height: RFValue(250)
+  },
+
+  iconContainer: {
+    flex: 0.2
+  },
+
+descriptionContainer: {
+    marginTop: RFValue(5)
+  },
+
+  likeButtonLiked: {
+    width: RFValue(160),
+    height: RFValue(40),
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "row",
+    backgroundColor: "#eb3948",
+    borderRadius: RFValue(30)
+  },
+  likeButtonDisliked: {
+    width: RFValue(160),
+    height: RFValue(40),
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "row",
+    borderColor: "#eb3948",
+    borderWidth: 2,
+    borderRadius: RFValue(30)
+  },
+
+// likeAction = () => {
+  //   // console.log("this.state.story_id",this.state.story_id)
+  //   if (this.state.is_liked) {
+  //     firebase
+  //       .database()
+  //       .ref("posts")
+  //       .child(this.state.story_id)
+  //       .child("likes")
+  //       .set(firebase.database.ServerValue.increment(-1));
+  //     this.setState({ likes: (this.state.likes -= 1), is_liked: false });
+  //   } else {
+  //     firebase
+  //       .database()
+  //       .ref("posts")
+  //       .child(this.state.story_id)
+  //       .child("likes")
+  //       .set(firebase.database.ServerValue.increment(1));
+  //     this.setState({ likes: (this.state.likes += 1), is_liked: true });
+  //   }
+  // };
+
+
+      // let images = {
+      //   image_1: require("../assets/story_image_1.png"),
+      //   image_2: require("../assets/story_image_2.png"),
+      //   image_3: require("../assets/story_image_3.png"),
+      //   image_4: require("../assets/story_image_4.png"),
+      //   image_5: require("../assets/story_image_5.png")
+      // };
+
+
+       // <TextInput
+                //   style={[
+                //     this.state.light_theme
+                //       ? styles.inputFontLight
+                //       : styles.inputFont,
+                //     styles.inputFontExtra,
+                //     styles.inputTextBig
+                //   ]}
+                //   onChangeText={description => this.setState({ description })}
+                //   placeholder={"Description"}
+                //   multiline={true}
+                //   numberOfLines={4}
+                //   placeholderTextColor={
+                //     this.state.light_theme ? "black" : "white"
+                //   }
+                // />
+                // <TextInput
+                //   style={[
+                //     this.state.light_theme
+                //       ? styles.inputFontLight
+                //       : styles.inputFont,
+                //     styles.inputFontExtra,
+                //     styles.inputTextBig
+                //   ]}
+                //   onChangeText={story => this.setState({ story })}
+                //   placeholder={"Story"}
+                //   multiline={true}
+                //   numberOfLines={20}
+                //   placeholderTextColor={
+                //     this.state.light_theme ? "black" : "white"
+                //   }
+                // />
+
+        // <TextInput
+                //   style={
+                //     this.state.light_theme
+                //       ? styles.inputFontLight
+                //       : styles.inputFont
+                //   }
+                //   onChangeText={title => this.setState({ title })}
+                //   placeholder={"Title"}
+                //   placeholderTextColor={
+                //     this.state.light_theme ? "black" : "white"
+                //   }
+                // />
+
+
+previewImage: {
+    width: "93%",
+    height: RFValue(250),
+    alignSelf: "center",
+    borderRadius: RFValue(10),
+    marginVertical: RFValue(10),
+    resizeMode: "contain"
+  },
